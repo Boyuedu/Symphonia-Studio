@@ -1,0 +1,19 @@
+piece_id,title,composer_id,duration_seconds,structure_template_id,has_orchestra,intro_end,theme_a_end,theme_b_end,development_end,recap_end
+debussy_clair_de_lune,Clair de Lune,debussy,300,ternary_simple,0,30,90,150,210,300
+debussy_arabesque_no1,Arabesque No. 1,debussy,240,ternary_simple,0,25,75,120,180,240
+debussy_reverie,Rêverie,debussy,270,free_form,0,40,100,160,220,270
+chopin_nocturne_op9_no2,Nocturne Op. 9 No. 2,chopin,300,ternary_simple,0,35,95,155,215,300
+chopin_ballade_no1,Ballade No. 1,chopin,540,ballade,0,60,150,270,390,540
+chopin_prelude_raindrop,Prelude Raindrop,chopin,360,ternary_simple,0,45,120,200,280,360
+satie_gnossienne_1,Gnossienne No. 1,satie,210,free_form,0,35,80,140,180,210
+satie_gymnopedie_1,Gymnopédie No. 1,satie,180,free_form,0,30,60,100,140,180
+satie_gymnopedie_3,Gymnopédie No. 3,satie,165,free_form,0,28,55,95,130,165
+rachmaninoff_piano_concerto_2,Piano Concerto No. 2,rachmaninoff,600,sonata,1,90,180,300,450,600
+rachmaninoff_rhapsody,Rhapsody Paganini,rachmaninoff,720,variations,1,60,180,360,540,720
+rachmaninoff_prelude_op23_no5,Prelude Op. 23 No. 5,rachmaninoff,240,ternary_simple,0,25,70,120,180,240
+schubert_ave_maria,Ave Maria,schubert,360,strophic,0,45,120,200,280,360
+schubert_impromptu_op90_no3,Impromptu Op. 90 No. 3,schubert,420,ternary_simple,0,50,130,220,320,420
+schubert_serenade,Ständchen,schubert,300,strophic,0,40,100,160,230,300
+shostakovich_waltz_no2,Waltz No. 2,shostakovich,210,dance,1,25,70,120,170,210
+shostakovich_symphony_5,Symphony No. 5,shostakovich,900,sonata,1,120,240,420,660,900
+shostakovich_piano_concerto_2,Piano Concerto No. 2 II,shostakovich,420,ternary_simple,1,50,130,220,320,420

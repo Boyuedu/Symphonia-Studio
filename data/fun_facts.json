@@ -1,0 +1,152 @@
+{
+  "_schema": "piece_id or composer_id -> list of raw facts; LLM turns these into multi-style fun facts",
+  "_dimensions": ["historical", "cultural", "technical", "anecdote", "surprising", "romantic", "funny"],
+  "by_piece": {
+    "debussy_clair_de_lune": [
+      "Title means 'moonlight' in French.",
+      "Part of Suite bergamasque; the suite was published in 1905 but some of it was written earlier.",
+      "One of the most recognizable piano works globally, used in films and ads.",
+      "Debussy was inspired by a poem by Paul Verlaine of the same name.",
+      "The piece was not the original third movement—Debussy replaced the earlier 'Promenade sentimentale'."
+    ],
+    "debussy_arabesque_no1": [
+      "An 'arabesque' in music suggests flowing, ornamental lines rather than a strict form.",
+      "Written when Debussy was in his twenties; the set of two arabesques was published in 1891.",
+      "Often used in ballet and figure skating for its light, flowing character.",
+      "The piece avoids heavy bass and keeps texture transparent and decorative."
+    ],
+    "debussy_reverie": [
+      "Debussy later said he thought little of this piece and was surprised by its popularity.",
+      "Published in 1890; the title means 'daydream' in French.",
+      "One of his earlier works that already shows his interest in color and atmosphere over strict form.",
+      "Frequently used in relaxation and meditation playlists."
+    ],
+    "chopin_nocturne_op9_no1": [
+      "A nocturne is a 'night piece'—often lyrical and reflective.",
+      "Chopin was in his early twenties when he wrote the Op. 9 set.",
+      "One of the most frequently taught and performed piano pieces.",
+      "The melody was later adapted into pop songs in the 20th century."
+    ],
+    "chopin_ballade_no1": [
+      "Chopin invented the ballade as a standalone instrumental genre.",
+      "Inspired by Polish poet Adam Mickiewicz; the music is narrative and dramatic.",
+      "Schumann said Chopin had told him the ballades were inspired by Mickiewicz's poems.",
+      "The piece builds to a famously difficult and stormy coda."
+    ],
+    "chopin_prelude_raindrop": [
+      "The nickname 'Raindrop' comes from the repeated A-flat that runs through the middle section.",
+      "Part of the 24 Preludes, Op. 28—one in each key, like Bach's Well-Tempered Clavier.",
+      "Written during Chopin's stay at Valldemossa with George Sand during a storm.",
+      "The persistent note is said to echo the rain on the monastery roof."
+    ],
+    "satie_gnossienne_1": [
+      "Satie invented the word 'Gnossienne'—it has no prior meaning.",
+      "He broke rules by adding written instructions in the score like 'open your head' and 'with astonishment'.",
+      "Part of a set of six Gnossiennes; the first three were published in 1893.",
+      "The piece has no bar lines in the original, giving it a floating, timeless feel."
+    ],
+    "satie_gymnopedie_1": [
+      "Gymnopédie refers to an ancient Greek festival where youths danced.",
+      "Satie wrote three Gymnopédies; Debussy later orchestrated the first and third.",
+      "Extremely simple harmony and rhythm—often one of the first 'classical' pieces people learn.",
+      "Used in countless films, ads, and games for its calm, slightly sad mood."
+    ],
+    "satie_gymnopedie_3": [
+      "The third Gymnopédie is slightly more active than the first but still very calm.",
+      "Like the others, it uses a slow 3/4 time and simple, repeating chords.",
+      "Satie was known for his humor; he once described himself as 'a musician in the medieval sense'."
+    ],
+    "rachmaninoff_piano_concerto_2": [
+      "Written after a period of depression; the composer credited his doctor with helping him recover.",
+      "The famous opening chords are said to represent the tolling of bells.",
+      "One of the most popular piano concertos ever written.",
+      "The second movement was used in the film 'Brief Encounter' and many others."
+    ],
+    "rachmaninoff_rhapsody": [
+      "Variation 18 is the 'big tune'—often played on its own in films and concerts.",
+      "Based on a theme by Paganini; Rachmaninoff turns it into a romantic love song.",
+      "The composer wrote it at his summer home in Switzerland.",
+      "It was featured in the movie 'Somewhere in Time'."
+    ],
+    "rachmaninoff_prelude_op23_no5": [
+      "Part of a set of ten preludes; he wrote preludes in all 24 keys across two opus numbers.",
+      "This one is nicknamed 'Alla marcia' for its march-like character.",
+      "Rachmaninoff had very large hands and could span huge chords—this piece uses that.",
+      "Often used as an encore for its short, brilliant effect."
+    ],
+    "schubert_ave_maria": [
+      "The text is from Walter Scott's 'The Lady of the Lake,' not the traditional Latin prayer.",
+      "Schubert never called it 'Ave Maria'—that title was added later.",
+      "One of the most recorded classical pieces, in classical and pop arrangements.",
+      "Originally for voice and piano; now often heard with orchestra or organ."
+    ],
+    "schubert_impromptu_op90_no3": [
+      "An 'impromptu' suggests something spontaneous, though the piece is fully composed.",
+      "The main melody is in the middle voice, with flowing accompaniment above and below.",
+      "One of four impromptus in D. 899; this set was published after his death.",
+      "Often described as a 'waterfall' or 'cascade' of notes."
+    ],
+    "schubert_serenade": [
+      "From the song cycle 'Schwanengesang' (Swan Song), assembled after his death.",
+      "The singer addresses a lover under the window—a classic serenade scenario.",
+      "The piano imitates a guitar or lute in the accompaniment.",
+      "Extremely popular in transcriptions for cello, violin, and piano solo."
+    ],
+    "shostakovich_waltz_no2": [
+      "From a 'Suite for Variety Orchestra'—often mistaken for the Jazz Suite.",
+      "The waltz has a nostalgic, sometimes ironic tone typical of Shostakovich.",
+      "Widely used in film and advertising for its catchy, cinematic feel.",
+      "The 'variety' orchestra is smaller than a full symphony orchestra."
+    ],
+    "shostakovich_symphony_5": [
+      "The composer said the finale was 'the forced rejoicing of someone threatened with torture'.",
+      "Written in 1937 after his opera was condemned; it was a public rehabilitation.",
+      "The symphony was a huge success and was seen as a 'Soviet artist's reply to just criticism'.",
+      "The opening is one of the most dramatic in the repertoire."
+    ],
+    "shostakovich_piano_concerto_2": [
+      "Written for his son Maxim's graduation from the Moscow Conservatory.",
+      "The second movement is one of his most lyrical, romantic pieces.",
+      "Uses a smaller orchestra (no violins in the slow movement).",
+      "Often considered more 'accessible' than his darker symphonic works."
+    ]
+  },
+  "by_composer": {
+    "debussy": [
+      "He hated the term 'impressionism' and did not want to be grouped with painters like Monet.",
+      "He was a notorious procrastinator and often missed deadlines.",
+      "He loved the sea and wrote 'La mer' after spending time by the ocean.",
+      "His daughter was named Claude-Emma; he called her 'Chouchou' and wrote a piano suite for her."
+    ],
+    "chopin": [
+      "He almost always composed at the piano and left very few non-piano works.",
+      "He preferred intimate salons to large concert halls and gave few public concerts.",
+      "He was close friends with Delacroix and had a famous portrait painted by him.",
+      "His heart was buried in Warsaw; his body is in Père Lachaise in Paris."
+    ],
+    "satie": [
+      "He once owned a collection of identical gray velvet suits.",
+      "When his room was opened after his death, two pianos were found, one with unopened mail inside.",
+      "He was a café pianist for years before gaining recognition.",
+      "He founded his own church and was its only member—'Metropolitan Art Church of Jesus the Conductor'."
+    ],
+    "rachmaninoff": [
+      "He was also a famous conductor and made many recordings as pianist and conductor.",
+      "He had enormous hands and could span a 13th on the piano.",
+      "He left Russia after the Revolution and never returned.",
+      "He was a fan of jazz and met Gershwin; he admired 'Rhapsody in Blue'."
+    ],
+    "schubert": [
+      "He wrote over 600 songs and many were only published after his death.",
+      "He died at 31; his cause of death is still debated.",
+      "He was part of a circle of friends who held 'Schubertiads'—private concerts of his music.",
+      "He never held an official position and lived mostly from teaching and publishing."
+    ],
+    "shostakovich": [
+      "He lived under Stalin and had to balance artistic truth with political survival.",
+      "His music often contains hidden messages and irony that Soviet censors missed.",
+      "He was a passionate football (soccer) fan and followed Zenit Leningrad.",
+      "He used his initials DSCH (D-Es-C-H in German) as a musical signature in several works."
+    ]
+  }
+}

@@ -1,0 +1,507 @@
+{
+  "_schema": "Composer ID -> list of pieces with ids, titles, and score for matching",
+  "composers": {
+    "debussy": {
+      "composer_name": "Claude Debussy",
+      "pieces": [
+        {
+          "piece_id": "debussy_clair_de_lune",
+          "title": "Clair de Lune",
+          "subtitle": "Suite bergamasque, L. 75",
+          "score": 0.95,
+          "tags": ["dreamy", "atmospheric", "piano", "impressionist"],
+          "duration_seconds": 300,
+          "structure_template_id": "ternary_simple"
+        },
+        {
+          "piece_id": "debussy_arabesque_no1",
+          "title": "Arabesque No. 1",
+          "subtitle": "Deux Arabesques, L. 66",
+          "score": 0.88,
+          "tags": ["light", "flowing", "piano", "impressionist"],
+          "duration_seconds": 240,
+          "structure_template_id": "ternary_simple"
+        },
+        {
+          "piece_id": "debussy_reverie",
+          "title": "Rêverie",
+          "subtitle": "L. 68",
+          "score": 0.82,
+          "tags": ["soft", "reflective", "piano", "impressionist"],
+          "duration_seconds": 270,
+          "structure_template_id": "free_form"
+        }
+      ]
+    },
+    "chopin": {
+      "composer_name": "Frédéric Chopin",
+      "pieces": [
+        {
+          "piece_id": "chopin_nocturne_op9_no1",
+          "title": "Nocturne in B-flat minor, Op. 9 No. 1",
+          "subtitle": "",
+          "score": 0.94,
+          "tags": ["lyrical", "nocturne", "piano", "romantic"],
+          "duration_seconds": 300,
+          "structure_template_id": "ternary_simple"
+        },
+        {
+          "piece_id": "chopin_ballade_no1",
+          "title": "Ballade No. 1 in G minor",
+          "subtitle": "Op. 23",
+          "score": 0.88,
+          "tags": ["dramatic", "narrative", "piano", "romantic"],
+          "duration_seconds": 540,
+          "structure_template_id": "ballade"
+        },
+        {
+          "piece_id": "chopin_prelude_raindrop",
+          "title": "Prelude in D-flat major 'Raindrop'",
+          "subtitle": "Op. 28 No. 15",
+          "score": 0.85,
+          "tags": ["contemplative", "repetitive", "piano", "romantic"],
+          "duration_seconds": 360,
+          "structure_template_id": "ternary_simple"
+        }
+      ]
+    },
+    "satie": {
+      "composer_name": "Erik Satie",
+      "pieces": [
+        {
+          "piece_id": "satie_gnossienne_1",
+          "title": "Gnossienne No. 1",
+          "subtitle": "",
+          "score": 0.92,
+          "tags": ["minimal", "hypnotic", "piano", "modern"],
+          "duration_seconds": 210,
+          "structure_template_id": "free_form"
+        },
+        {
+          "piece_id": "satie_gymnopedie_1",
+          "title": "Gymnopédie No. 1",
+          "subtitle": "",
+          "score": 0.90,
+          "tags": ["melancholic", "sparse", "piano", "modern"],
+          "duration_seconds": 180,
+          "structure_template_id": "free_form"
+        },
+        {
+          "piece_id": "satie_gymnopedie_3",
+          "title": "Gymnopédie No. 3",
+          "subtitle": "",
+          "score": 0.83,
+          "tags": ["gentle", "floating", "piano", "modern"],
+          "duration_seconds": 165,
+          "structure_template_id": "free_form"
+        }
+      ]
+    },
+    "rachmaninoff": {
+      "composer_name": "Sergei Rachmaninoff",
+      "pieces": [
+        {
+          "piece_id": "rachmaninoff_piano_concerto_2",
+          "title": "Piano Concerto No. 2 in C minor",
+          "subtitle": "Op. 18 - I. Moderato",
+          "score": 0.93,
+          "tags": ["dramatic", "orchestral", "piano", "romantic"],
+          "duration_seconds": 600,
+          "structure_template_id": "sonata",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "rachmaninoff_rhapsody",
+          "title": "Rhapsody on a Theme of Paganini",
+          "subtitle": "Op. 43 - Variation 18",
+          "score": 0.88,
+          "tags": ["lyrical", "orchestral", "piano", "romantic"],
+          "duration_seconds": 720,
+          "structure_template_id": "variations",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "rachmaninoff_prelude_op23_no5",
+          "title": "Prelude in G minor",
+          "subtitle": "Op. 23 No. 5",
+          "score": 0.84,
+          "tags": ["bold", "piano", "romantic"],
+          "duration_seconds": 240,
+          "structure_template_id": "ternary_simple",
+          "has_orchestra": false
+        }
+      ]
+    },
+    "schubert": {
+      "composer_name": "Franz Schubert",
+      "pieces": [
+        {
+          "piece_id": "schubert_ave_maria",
+          "title": "Ave Maria",
+          "subtitle": "D. 839",
+          "score": 0.91,
+          "tags": ["lyrical", "vocal", "romantic"],
+          "duration_seconds": 360,
+          "structure_template_id": "strophic"
+        },
+        {
+          "piece_id": "schubert_impromptu_op90_no3",
+          "title": "Impromptu in G-flat major",
+          "subtitle": "D. 899 No. 3",
+          "score": 0.87,
+          "tags": ["flowing", "piano", "romantic"],
+          "duration_seconds": 420,
+          "structure_template_id": "ternary_simple"
+        },
+        {
+          "piece_id": "schubert_serenade",
+          "title": "Ständchen (Serenade)",
+          "subtitle": "D. 957 No. 4",
+          "score": 0.82,
+          "tags": ["song", "gentle", "romantic"],
+          "duration_seconds": 300,
+          "structure_template_id": "strophic"
+        }
+      ]
+    },
+    "shostakovich": {
+      "composer_name": "Dmitri Shostakovich",
+      "pieces": [
+        {
+          "piece_id": "shostakovich_waltz_no2",
+          "title": "Waltz No. 2",
+          "subtitle": "Suite for Variety Orchestra",
+          "score": 0.89,
+          "tags": ["orchestral", "ironic", "modern"],
+          "duration_seconds": 210,
+          "structure_template_id": "dance",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "shostakovich_symphony_5",
+          "title": "Symphony No. 5 - I. Moderato",
+          "subtitle": "Op. 47",
+          "score": 0.86,
+          "tags": ["dramatic", "orchestral", "symphonic"],
+          "duration_seconds": 900,
+          "structure_template_id": "sonata",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "shostakovich_piano_concerto_2",
+          "title": "Piano Concerto No. 2 - II. Andante",
+          "subtitle": "Op. 102",
+          "score": 0.82,
+          "tags": ["lyrical", "orchestral", "piano"],
+          "duration_seconds": 420,
+          "structure_template_id": "ternary_simple",
+          "has_orchestra": true
+        }
+      ]
+    },
+    "tchaikovsky": {
+      "composer_name": "Pyotr Ilyich Tchaikovsky",
+      "pieces": [
+        {
+          "piece_id": "tchaikovsky_swan_lake",
+          "title": "Swan Lake - Scene",
+          "subtitle": "Op. 20",
+          "score": 0.92,
+          "tags": ["ballet", "lyrical", "orchestral", "romantic"],
+          "duration_seconds": 360,
+          "structure_template_id": "ternary_simple",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "tchaikovsky_1812",
+          "title": "1812 Overture",
+          "subtitle": "Op. 49",
+          "score": 0.88,
+          "tags": ["orchestral", "dramatic", "romantic"],
+          "duration_seconds": 900,
+          "structure_template_id": "sonata",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "tchaikovsky_piano_concerto_1",
+          "title": "Piano Concerto No. 1 - I. Allegro",
+          "subtitle": "Op. 23",
+          "score": 0.85,
+          "tags": ["piano", "orchestral", "romantic", "virtuosic"],
+          "duration_seconds": 660,
+          "structure_template_id": "sonata",
+          "has_orchestra": true
+        }
+      ]
+    },
+    "ravel": {
+      "composer_name": "Maurice Ravel",
+      "pieces": [
+        {
+          "piece_id": "ravel_bolero",
+          "title": "Boléro",
+          "subtitle": "M. 81",
+          "score": 0.90,
+          "tags": ["orchestral", "hypnotic", "impressionist"],
+          "duration_seconds": 900,
+          "structure_template_id": "free_form",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "ravel_pavane",
+          "title": "Pavane pour une infante défunte",
+          "subtitle": "M. 19",
+          "score": 0.88,
+          "tags": ["piano", "elegiac", "impressionist"],
+          "duration_seconds": 360,
+          "structure_template_id": "ternary_simple"
+        },
+        {
+          "piece_id": "ravel_gaspard_ondine",
+          "title": "Ondine (Gaspard de la nuit)",
+          "subtitle": "M. 55 No. 1",
+          "score": 0.84,
+          "tags": ["piano", "evocative", "impressionist", "virtuosic"],
+          "duration_seconds": 420,
+          "structure_template_id": "free_form"
+        }
+      ]
+    },
+    "beethoven": {
+      "composer_name": "Ludwig van Beethoven",
+      "pieces": [
+        {
+          "piece_id": "beethoven_moonlight_1",
+          "title": "Piano Sonata No. 14 'Moonlight' - I. Adagio",
+          "subtitle": "Op. 27 No. 2",
+          "score": 0.94,
+          "tags": ["piano", "contemplative", "classical", "romantic"],
+          "duration_seconds": 360,
+          "structure_template_id": "free_form"
+        },
+        {
+          "piece_id": "beethoven_symphony_5_1",
+          "title": "Symphony No. 5 - I. Allegro con brio",
+          "subtitle": "Op. 67",
+          "score": 0.91,
+          "tags": ["orchestral", "dramatic", "symphonic"],
+          "duration_seconds": 480,
+          "structure_template_id": "sonata",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "beethoven_ode_to_joy",
+          "title": "Symphony No. 9 - IV. Ode to Joy",
+          "subtitle": "Op. 125",
+          "score": 0.87,
+          "tags": ["orchestral", "choral", "triumphant", "romantic"],
+          "duration_seconds": 960,
+          "structure_template_id": "variations",
+          "has_orchestra": true
+        }
+      ]
+    },
+    "mozart": {
+      "composer_name": "Wolfgang Amadeus Mozart",
+      "pieces": [
+        {
+          "piece_id": "mozart_requiem_lacrimosa",
+          "title": "Requiem - Lacrimosa",
+          "subtitle": "K. 626",
+          "score": 0.91,
+          "tags": ["choral", "sacred", "dramatic", "classical"],
+          "duration_seconds": 210,
+          "structure_template_id": "free_form",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "mozart_serenade_13",
+          "title": "Eine kleine Nachtmusik - I. Allegro",
+          "subtitle": "K. 525",
+          "score": 0.89,
+          "tags": ["chamber", "light", "classical", "melodic"],
+          "duration_seconds": 330,
+          "structure_template_id": "sonata",
+          "has_orchestra": false
+        },
+        {
+          "piece_id": "mozart_piano_sonata_16",
+          "title": "Piano Sonata No. 16 - I. Allegro",
+          "subtitle": "K. 545",
+          "score": 0.85,
+          "tags": ["piano", "light", "classical", "graceful"],
+          "duration_seconds": 240,
+          "structure_template_id": "sonata"
+        }
+      ]
+    },
+    "brahms": {
+      "composer_name": "Johannes Brahms",
+      "pieces": [
+        {
+          "piece_id": "brahms_lullaby",
+          "title": "Wiegenlied (Lullaby)",
+          "subtitle": "Op. 49 No. 4",
+          "score": 0.90,
+          "tags": ["lyrical", "gentle", "romantic", "song"],
+          "duration_seconds": 120,
+          "structure_template_id": "strophic"
+        },
+        {
+          "piece_id": "brahms_hungarian_dance_5",
+          "title": "Hungarian Dance No. 5",
+          "subtitle": "WoO 1",
+          "score": 0.86,
+          "tags": ["orchestral", "dance", "romantic", "folk"],
+          "duration_seconds": 180,
+          "structure_template_id": "dance",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "brahms_intermezzo_op118_no2",
+          "title": "Intermezzo in A major",
+          "subtitle": "Op. 118 No. 2",
+          "score": 0.83,
+          "tags": ["piano", "warm", "romantic", "introspective"],
+          "duration_seconds": 330,
+          "structure_template_id": "ternary_simple"
+        }
+      ]
+    },
+    "liszt": {
+      "composer_name": "Franz Liszt",
+      "pieces": [
+        {
+          "piece_id": "liszt_liebestraum_3",
+          "title": "Liebestraum No. 3",
+          "subtitle": "S. 541",
+          "score": 0.91,
+          "tags": ["piano", "lyrical", "romantic", "virtuosic"],
+          "duration_seconds": 300,
+          "structure_template_id": "ternary_simple"
+        },
+        {
+          "piece_id": "liszt_consolation_3",
+          "title": "Consolation No. 3",
+          "subtitle": "S. 172",
+          "score": 0.86,
+          "tags": ["piano", "gentle", "romantic"],
+          "duration_seconds": 270,
+          "structure_template_id": "ternary_simple"
+        },
+        {
+          "piece_id": "liszt_hungarian_rhapsody_2",
+          "title": "Hungarian Rhapsody No. 2",
+          "subtitle": "S. 244",
+          "score": 0.84,
+          "tags": ["piano", "virtuosic", "dramatic", "romantic"],
+          "duration_seconds": 600,
+          "structure_template_id": "free_form"
+        }
+      ]
+    },
+    "mendelssohn": {
+      "composer_name": "Felix Mendelssohn",
+      "pieces": [
+        {
+          "piece_id": "mendelssohn_wedding_march",
+          "title": "Wedding March",
+          "subtitle": "A Midsummer Night's Dream, Op. 61",
+          "score": 0.89,
+          "tags": ["orchestral", "ceremonial", "romantic", "lyrical"],
+          "duration_seconds": 270,
+          "structure_template_id": "ternary_simple",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "mendelssohn_violin_concerto_1",
+          "title": "Violin Concerto in E minor - I. Allegro",
+          "subtitle": "Op. 64",
+          "score": 0.87,
+          "tags": ["orchestral", "violin", "lyrical", "romantic"],
+          "duration_seconds": 780,
+          "structure_template_id": "sonata",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "mendelssohn_songs_without_words",
+          "title": "Songs without Words - Spring Song",
+          "subtitle": "Op. 62 No. 6",
+          "score": 0.82,
+          "tags": ["piano", "light", "romantic", "melodic"],
+          "duration_seconds": 150,
+          "structure_template_id": "ternary_simple"
+        }
+      ]
+    },
+    "mahler": {
+      "composer_name": "Gustav Mahler",
+      "pieces": [
+        {
+          "piece_id": "mahler_symphony_5_adagietto",
+          "title": "Symphony No. 5 - IV. Adagietto",
+          "subtitle": "",
+          "score": 0.90,
+          "tags": ["orchestral", "lyrical", "romantic", "intimate"],
+          "duration_seconds": 600,
+          "structure_template_id": "ternary_simple",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "mahler_symphony_1_4",
+          "title": "Symphony No. 1 - IV. Stürmisch bewegt",
+          "subtitle": "Titan",
+          "score": 0.85,
+          "tags": ["orchestral", "dramatic", "symphonic", "romantic"],
+          "duration_seconds": 540,
+          "structure_template_id": "sonata",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "mahler_kindertotenlieder",
+          "title": "Kindertotenlieder - Nun will die Sonn' so hell aufgeh'n",
+          "subtitle": "",
+          "score": 0.80,
+          "tags": ["vocal", "orchestral", "contemplative", "romantic"],
+          "duration_seconds": 360,
+          "structure_template_id": "strophic",
+          "has_orchestra": true
+        }
+      ]
+    },
+    "prokofiev": {
+      "composer_name": "Sergei Prokofiev",
+      "pieces": [
+        {
+          "piece_id": "prokofiev_romeo_balcony",
+          "title": "Romeo and Juliet - Montagues and Capulets",
+          "subtitle": "Op. 64",
+          "score": 0.88,
+          "tags": ["ballet", "orchestral", "dramatic", "modern"],
+          "duration_seconds": 330,
+          "structure_template_id": "dance",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "prokofiev_peter_wolf",
+          "title": "Peter and the Wolf",
+          "subtitle": "Op. 67 - Excerpt",
+          "score": 0.85,
+          "tags": ["orchestral", "narrative", "programmatic", "modern"],
+          "duration_seconds": 180,
+          "structure_template_id": "free_form",
+          "has_orchestra": true
+        },
+        {
+          "piece_id": "prokofiev_piano_sonata_7",
+          "title": "Piano Sonata No. 7 - III. Precipitato",
+          "subtitle": "Op. 83",
+          "score": 0.82,
+          "tags": ["piano", "driving", "modern", "virtuosic"],
+          "duration_seconds": 240,
+          "structure_template_id": "ternary_simple"
+        }
+      ]
+    }
+  }
+}

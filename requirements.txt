@@ -1,0 +1,16 @@
+# Symphonia Studio
+# Python 3.10+
+
+# Web
+flask>=3.0.0
+
+# LLM (optional: use OpenAI-compatible or Nemotron API)
+openai>=1.0.0
+
+# Plotting (emotion landscape)
+matplotlib>=3.7.0
+
+# Orchestra Explorer: pitch/note activity (optional; app works without it)
+basic-pitch>=0.2.0
+
+# No extra deps required for data (json, csv, os are stdlib)

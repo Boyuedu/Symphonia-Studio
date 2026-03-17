@@ -1,0 +1,97 @@
+{
+  "_schema": "Each piece_id must have an audio_url that is a recording of THAT composition. Keys match composer_pieces.json piece_id.",
+  "_comment": "Only set availability_status to 'available' when audio_url is a real recording of the piece. Add URLs from Musopen, Internet Archive, your CDN, or streaming API.",
+  "_piece_id_reference": "piece_id in this file = same as in composer_pieces.json (e.g. debussy_clair_de_lune = Clair de Lune by Debussy).",
+  "sources": {
+    "debussy_clair_de_lune": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "debussy_arabesque_no1": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "debussy_reverie": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "chopin_nocturne_op9_no1": {
+      "audio_url": "/static/audio/chopin_nocturne_op9_no1.mp3",
+      "cover_art_url": "",
+      "availability_status": "available"
+    },
+    "chopin_ballade_no1": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "chopin_prelude_raindrop": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "satie_gnossienne_1": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "satie_gymnopedie_1": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "satie_gymnopedie_3": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "rachmaninoff_piano_concerto_2": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "rachmaninoff_rhapsody": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "rachmaninoff_prelude_op23_no5": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "schubert_ave_maria": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "schubert_impromptu_op90_no3": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "schubert_serenade": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "shostakovich_waltz_no2": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "shostakovich_symphony_5": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    },
+    "shostakovich_piano_concerto_2": {
+      "audio_url": "",
+      "cover_art_url": "",
+      "availability_status": "unavailable"
+    }
+  }
+}

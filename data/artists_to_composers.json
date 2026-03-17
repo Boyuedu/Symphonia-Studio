@@ -1,0 +1,251 @@
+{
+  "_schema": "Pop artist name (normalized) -> list of composer candidates with weights and reason. Unknown artists use _fallback_composers with soft style dimensions.",
+  "_fallback_composers": [
+    {
+      "composer_id": "debussy",
+      "composer_name": "Claude Debussy",
+      "base_weight": 0.82,
+      "tags": ["impressionist", "dreamy", "atmospheric", "piano"],
+      "style": {
+        "emotional_tone": 0.72,
+        "atmosphere": 0.95,
+        "texture": 0.68,
+        "energy": 0.42
+      },
+      "reason": "Dreamy, impressionist sound worlds—perfect for atmospheric, introspective artists."
+    },
+    {
+      "composer_id": "chopin",
+      "composer_name": "Frédéric Chopin",
+      "base_weight": 0.88,
+      "tags": ["romantic", "lyrical", "piano", "nocturne"],
+      "style": {
+        "emotional_tone": 0.9,
+        "atmosphere": 0.7,
+        "texture": 0.55,
+        "energy": 0.6
+      },
+      "reason": "Lyrical, intimate piano with rich emotion—a great match for storytelling songwriters."
+    },
+    {
+      "composer_id": "satie",
+      "composer_name": "Erik Satie",
+      "base_weight": 0.84,
+      "tags": ["minimal", "hypnotic", "piano", "modern"],
+      "style": {
+        "emotional_tone": 0.6,
+        "atmosphere": 0.9,
+        "texture": 0.3,
+        "energy": 0.25
+      },
+      "reason": "Minimal, hypnotic, and slightly surreal—ideal for sparse, moody pop aesthetics."
+    },
+    {
+      "composer_id": "schubert",
+      "composer_name": "Franz Schubert",
+      "base_weight": 0.86,
+      "tags": ["romantic", "song", "melodic", "warm"],
+      "style": {
+        "emotional_tone": 0.85,
+        "atmosphere": 0.65,
+        "texture": 0.5,
+        "energy": 0.5
+      },
+      "reason": "Warm, song-like melodies and heartfelt expression—great for acoustic, melodic artists."
+    },
+    {
+      "composer_id": "rachmaninoff",
+      "composer_name": "Sergei Rachmaninoff",
+      "base_weight": 0.86,
+      "tags": ["romantic", "dramatic", "piano", "orchestral"],
+      "style": {
+        "emotional_tone": 0.95,
+        "atmosphere": 0.8,
+        "texture": 0.8,
+        "energy": 0.75
+      },
+      "reason": "Big, cinematic emotion and sweeping gestures—perfect for dramatic, powerhouse vocal styles."
+    },
+    {
+      "composer_id": "shostakovich",
+      "composer_name": "Dmitri Shostakovich",
+      "base_weight": 0.84,
+      "tags": ["modern", "tension", "orchestral", "ironic"],
+      "style": {
+        "emotional_tone": 0.65,
+        "atmosphere": 0.5,
+        "texture": 0.75,
+        "energy": 0.7
+      },
+      "reason": "Tension, wit, and emotional depth—great for restless, alternative-leaning tastes."
+    },
+    {
+      "composer_id": "tchaikovsky",
+      "composer_name": "Pyotr Ilyich Tchaikovsky",
+      "base_weight": 0.86,
+      "tags": ["romantic", "ballet", "lyrical", "orchestral"],
+      "style": {
+        "emotional_tone": 0.88,
+        "atmosphere": 0.75,
+        "texture": 0.7,
+        "energy": 0.65
+      },
+      "reason": "Sweeping melodies and vivid drama—ideal for fans of big, emotional orchestral sound."
+    },
+    {
+      "composer_id": "ravel",
+      "composer_name": "Maurice Ravel",
+      "base_weight": 0.85,
+      "tags": ["impressionist", "orchestral", "evocative", "piano"],
+      "style": {
+        "emotional_tone": 0.68,
+        "atmosphere": 0.88,
+        "texture": 0.72,
+        "energy": 0.48
+      },
+      "reason": "Colorful, precise, and evocative—a perfect gateway for fans of texture and atmosphere."
+    },
+    {
+      "composer_id": "beethoven",
+      "composer_name": "Ludwig van Beethoven",
+      "base_weight": 0.88,
+      "tags": ["classical", "dramatic", "symphonic", "piano"],
+      "style": {
+        "emotional_tone": 0.82,
+        "atmosphere": 0.6,
+        "texture": 0.65,
+        "energy": 0.85
+      },
+      "reason": "Power, drama, and triumph—for listeners who love bold, iconic classical hits."
+    },
+    {
+      "composer_id": "mozart",
+      "composer_name": "Wolfgang Amadeus Mozart",
+      "base_weight": 0.85,
+      "tags": ["classical", "graceful", "melodic", "chamber"],
+      "style": {
+        "emotional_tone": 0.7,
+        "atmosphere": 0.55,
+        "texture": 0.5,
+        "energy": 0.55
+      },
+      "reason": "Elegant, sunny, and endlessly melodic—great for accessible, feel-good classical."
+    },
+    {
+      "composer_id": "brahms",
+      "composer_name": "Johannes Brahms",
+      "base_weight": 0.84,
+      "tags": ["romantic", "warm", "introspective", "orchestral"],
+      "style": {
+        "emotional_tone": 0.8,
+        "atmosphere": 0.62,
+        "texture": 0.6,
+        "energy": 0.52
+      },
+      "reason": "Warmth, depth, and lyrical richness—for fans of heartfelt, substantial melody."
+    },
+    {
+      "composer_id": "liszt",
+      "composer_name": "Franz Liszt",
+      "base_weight": 0.85,
+      "tags": ["romantic", "virtuosic", "piano", "dramatic"],
+      "style": {
+        "emotional_tone": 0.88,
+        "atmosphere": 0.72,
+        "texture": 0.58,
+        "energy": 0.78
+      },
+      "reason": "Virtuosic flair and romantic fire—for listeners who love show-stopping piano."
+    },
+    {
+      "composer_id": "mendelssohn",
+      "composer_name": "Felix Mendelssohn",
+      "base_weight": 0.83,
+      "tags": ["romantic", "lyrical", "light", "orchestral"],
+      "style": {
+        "emotional_tone": 0.75,
+        "atmosphere": 0.68,
+        "texture": 0.52,
+        "energy": 0.58
+      },
+      "reason": "Light, lyrical, and uplifting—ideal for melodic, accessible romantic music."
+    },
+    {
+      "composer_id": "mahler",
+      "composer_name": "Gustav Mahler",
+      "base_weight": 0.84,
+      "tags": ["romantic", "symphonic", "epic", "orchestral"],
+      "style": {
+        "emotional_tone": 0.9,
+        "atmosphere": 0.82,
+        "texture": 0.85,
+        "energy": 0.68
+      },
+      "reason": "Vast emotional landscapes and soaring melodies—for fans of epic, immersive sound."
+    },
+    {
+      "composer_id": "prokofiev",
+      "composer_name": "Sergei Prokofiev",
+      "base_weight": 0.83,
+      "tags": ["modern", "dramatic", "ballet", "orchestral"],
+      "style": {
+        "emotional_tone": 0.62,
+        "atmosphere": 0.58,
+        "texture": 0.7,
+        "energy": 0.8
+      },
+      "reason": "Bold, narrative, and rhythmically sharp—great for dramatic and cinematic tastes."
+    }
+  ],
+  "_suggestions_message": "Try artists like: Coldplay, Taylor Swift, Billie Eilish, Adele, Ed Sheeran, Radiohead",
+  "mappings": [
+    {
+      "artist_key": "coldplay",
+      "artist_display": "Coldplay",
+      "composer_id": "debussy",
+      "composer_name": "Claude Debussy",
+      "weight": 0.95,
+      "reason": "Atmospheric, expansive sound and emotional crescendos—similar to Debussy's impressionist palette."
+    },
+    {
+      "artist_key": "taylor swift",
+      "artist_display": "Taylor Swift",
+      "composer_id": "chopin",
+      "composer_name": "Frédéric Chopin",
+      "weight": 0.92,
+      "reason": "Lyrical melodies and intimate, storytelling piano—reminiscent of Chopin's poetic nocturnes."
+    },
+    {
+      "artist_key": "billie eilish",
+      "artist_display": "Billie Eilish",
+      "composer_id": "satie",
+      "composer_name": "Erik Satie",
+      "weight": 0.90,
+      "reason": "Minimal, moody, and haunting—Satie's sparse, evocative pieces share that same vibe."
+    },
+    {
+      "artist_key": "adele",
+      "artist_display": "Adele",
+      "composer_id": "rachmaninoff",
+      "composer_name": "Sergei Rachmaninoff",
+      "weight": 0.88,
+      "reason": "Powerful emotion and sweeping melodies—Rachmaninoff's concertos match that dramatic intensity."
+    },
+    {
+      "artist_key": "ed sheeran",
+      "artist_display": "Ed Sheeran",
+      "composer_id": "schubert",
+      "composer_name": "Franz Schubert",
+      "weight": 0.85,
+      "reason": "Warm, song-like melodies and heartfelt expression—Schubert's lieder and piano works fit perfectly."
+    },
+    {
+      "artist_key": "radiohead",
+      "artist_display": "Radiohead",
+      "composer_id": "shostakovich",
+      "composer_name": "Dmitri Shostakovich",
+      "weight": 0.87,
+      "reason": "Tension, dissonance, and emotional depth—Shostakovich's symphonies share that restless intensity."
+    }
+  ]
+}

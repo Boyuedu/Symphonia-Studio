@@ -1,0 +1,33 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment and secrets
+.env
+.env.local
+*.pem
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Project-specific (optional: uncomment if you don't want to track)
+# static/audio/
+# *.mp3
+# *.wav
+
+# Logs and temp
+*.log
+.cache/
